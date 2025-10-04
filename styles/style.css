@@ -213,7 +213,7 @@
   color: var(--text-color);
 }
 
-.card__icon-button:focus-visible{
+.card__icon-button:focus-visible {
   border-color: var(--text-color);
   outline: none;
 }
@@ -222,7 +222,7 @@
   box-shadow: 2px 2px var(--text-color);
 }
 
-.button:focus-visible{
+.button:focus-visible {
   outline: none;
 }
 
@@ -256,7 +256,8 @@
   font-family: var(--font-fantasy);
   font-size: 14px;
   line-height: 150%;
-  text-transform: uppercase;overflow: hidden;
+  text-transform: uppercase;
+  overflow: hidden;
 }
 
 .dialog__message {
@@ -284,7 +285,7 @@
 
 @media (width <= 375px) {
 
-  .header-title{
+  .header-title {
     margin-block-end: 119px;
   }
 
@@ -311,7 +312,7 @@
     height: 28px;
   }
 
-  .dialog[open]{
+  .dialog[open] {
     padding: 30px 40px;
   }
 }
