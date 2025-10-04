@@ -132,12 +132,14 @@
   font-size: 14px;
   color: var(--text-color);
   opacity: 0.5;
+}
   @supports (-webkit-text-stroke: 1px var(--accent-color)) {
   .card__watermark {
     text-shadow: none;
     -webkit-text-stroke: 1px var(--accent-color);
   }
 }
+
 
 .card__info {
   width: clamp(20.063rem, 12.91rem + 30.52vw, 40.375rem);
