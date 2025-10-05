@@ -257,7 +257,6 @@
   font-size: 14px;
   line-height: 150%;
   text-transform: uppercase;
-  overflow: hidden;
 }
 
 .dialog__message {
@@ -265,6 +264,7 @@
   flex-direction: row;
   gap: 20px;
   align-items: center;
+  inline-size: 293px;
 }
 
 .dialog__title {
@@ -315,4 +315,8 @@
   .dialog[open] {
     padding: 30px 40px;
   }
+  
+  .dialog__title {
+  max-width: 202px;
+}
 }
